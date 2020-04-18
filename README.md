@@ -1,10 +1,24 @@
 # Aqueous Solubility Data Curation
 
-> Autonomous Energy Materials Discovery [AMD] research group
+AqSolDB is created by the Autonomous Energy Materials Discovery [AMD] research group, consists of aqueous solubility values of 9,982 unique compounds curated from 9 different publicly available aqueous solubility datasets. This openly accessible dataset, which is the largest of its kind, and will not only serve as a useful reference source of measured solubility data, but also as a much improved and generalizable training data source for building data-driven models.
 
-> Dutch Institute for Fundamental Energy Research (DIFFER)
 
-> Center for Computational Energy Research (CCER)
+## Citation
+
+If you use AqSolDB in your study, please cite the following paper.
+
+Paper: [Nature Scientific Data](https://doi.org/10.1038/s41597-019-0151-1) - https://doi.org/10.1038/s41597-019-0151-1
+
+
+## Other Platforms 
+
+> Online reproducible code: [Code Ocean](https://doi.org/10.24433/CO.1992938.v1)
+
+> Data science kernels: [Kaggle](https://www.kaggle.com/sorkun/aqsoldb-a-curated-aqueous-solubility-dataset)
+
+> Easy search from AqSolDB: [AMD Website](https://www.amdlab.nl/database/AqSolDB/)
+
+> Data Repository: [Harvard Dataverse](https://doi.org/10.7910/DVN/OVHAW8) 
 
 
 ## Overview
@@ -24,13 +38,9 @@ Further information about curation process can be found in the associated manusc
 
 # Examples 
 
-To execute the curation process simply click the "Reproducible Run" button located at top right corner.
-Run button executes the "data-process.py" and then the "data-curation.py" scripts. It must be noted that the two scripts can also be run independently.
-
-
 ## data-preprocess.py 
 
-This file converts 2 example sub-datasets (25 instances from raw forms of dataset-A[1] and dataset-H[6]) which are then converted into a standardized format.
+This file converts 2 example sub-datasets (25 instances from raw forms of dataset-A[1] and dataset-H[6]) which are then converted into a standardized format. (This is an example how to preprocess datasets. The preporcessed data files already in the data folder.)
 
 **inputs:**
 1. raw-dataset-A.csv (various solubility metrics (g/L, mg/L..) with Name and CAS Number)
